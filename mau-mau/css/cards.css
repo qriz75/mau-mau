@@ -1,6 +1,6 @@
 #cardTable {
   display: block;
-/*  background-image: url("/cop4813/img/cards/table.png");
+/*  background-image: url("/mau-mau/img/cards/table.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;*/
@@ -40,7 +40,7 @@
 #stack {
   display: block;
   /*border: 2px solid darkslategray;*/
-  background-image: url("/cop4813/img/cards/blue_back.png");
+  background-image: url("/mau-mau/img/cards/blue_back.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -56,7 +56,7 @@
 
 .card-placeholder{
   display: inline-block;
-  background-image: url("/cop4813/img/cards/blue_back.png");
+  background-image: url("/mau-mau/img/cards/blue_back.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -138,6 +138,7 @@ div.card {
   position:absolute;
   z-index: 10;
 }
+/*
 div.card[suit='Diamond'] {
   background:#faa;
 }
@@ -156,7 +157,7 @@ div.card[suit='Club'] {
   background:#252;
   color:#eee;
 }
-
+*/
 div.card.drop-placeholder { opacity: 0.5 ; }
 
 div#discard-pile {
